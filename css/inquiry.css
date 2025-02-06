@@ -1,5 +1,15 @@
 @charset 'utf-8';
 
+.visual figure::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--black40);
+}
+
 .faq {
   margin-bottom: 13rem;
 }
@@ -64,7 +74,7 @@
 .info-wrap li::after {
   content: "";
   position: absolute;
-  top: 4.6rem;
+  top: 3rem;
   right: 3%;
   width: 4rem;
   aspect-ratio: 1/1;
@@ -93,7 +103,7 @@
   font-size: 2.6rem;
   font-weight: 700;
   color: var(--white100);
-  background: var(--title-color);
+  background: var(--main-color);
 }
 
 .answer-wrap i {
@@ -103,10 +113,6 @@
 
 .faq-txt {
   width: 80%;
-}
-
-.faq-txt strong {
-  font-size: 1.6rem;
 }
 
 .faq-txt h4 {
