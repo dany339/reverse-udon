@@ -644,6 +644,7 @@ body {
 .visual-title h2 {
   font: 9.6rem/1.2 "Jua", sans-serif;
   font-size: clamp(10.5rem, 9.1146vw, 17.5rem);
+  word-break: keep-all;
 }
 
 .visual-title p {

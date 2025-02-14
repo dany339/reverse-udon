@@ -179,14 +179,6 @@ $eventTabMenu.on("click", function (e) {
 });
 
 /* STORE!!!---------------------------------------------- */
-// map-filter 기능(MAIN)
-if ($(".map-filter").length) {
-  const $input = $(".map-filter li input");
-  $input.on("click", function () {
-    $(this).toggleClass("on");
-  });
-}
-
 const $mapSearch = $(".map-search");
 const $btnFold = $(".btn-fold");
 
